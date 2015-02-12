@@ -35,14 +35,7 @@ spawnClassChance_list = [
 ];
 
 //"exclcontainer_list" single array of container classnames to NOT to delete if filled
-exclcontainer_list = [
-"Box_East_Ammo_F", "Box_East_AmmoOrd_F", "Box_East_AmmoVeh_F", "Box_East_Grenades_F", "Box_East_Support_F",
-"Box_East_Wps_F", "Box_East_WpsLaunch_F", "Box_East_WpsSpecial_F",
-"Box_IND_Ammo_F", "Box_IND_AmmoOrd_F", "Box_IND_AmmoVeh_F", "Box_IND_Grenades_F", "Box_IND_Support_F",
-"Box_IND_Wps_F", "Box_IND_WpsLaunch_F", "Box_IND_WpsSpecial_F",
-"Box_NATO_Ammo_F", "Box_NATO_AmmoOrd_F", "Box_NATO_AmmoVeh_F", "Box_NATO_Grenades_F", "Box_NATO_Support_F",
-"Box_NATO_Wps_F", "Box_NATO_WpsLaunch_F", "Box_NATO_WpsSpecial_F"
-];
+exclcontainer_list = [];
 
 //-------------------------------------------------------------------------------------
 //DONT change these, will be filled in MAIN -------------------------------------------
@@ -56,7 +49,6 @@ LSusedclass_list = ["WeaponHolderSimulated"];
 #include "LSlootBuildings.sqf"
 //Loot goes in these lists
 #include "LSlootLists.sqf"
-#include "LSLootLists_HighLoot.SQF"
 
 //-------------------------------------------------------------------------------------
 //function only runs once on beginning of mission, not really needs a compile 
