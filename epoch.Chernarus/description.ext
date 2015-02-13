@@ -1,5 +1,5 @@
 #include "infiSTAR_AdminMenu.hpp"
-author = "Epoch Mod Team- UKE Mod Team";
+author = "Epoch Mod Team";
 class Header
 {
  gameType = Sandbox;
@@ -11,8 +11,8 @@ respawnDelay = 600;
 respawnDialog = 0;
 
 onLoadMission= "Epoch";
-OnLoadIntro = "Welcome to UKE's Epoch Server";
-loadScreen = "Loading.jpg"; 
+OnLoadIntro = "Welcome to Epoch Mod";
+loadScreen = "intro.jpg"; 
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
 onLoadName = "Epoch Mod";
@@ -38,3 +38,8 @@ wreckRemovalMinTime = 60;
 wreckRemovalMaxTime = 360;
 
 class CfgRemoteExecCommands {};
+
+class RscTitles
+{
+#include "dialog\statusBar.hpp"
+};
