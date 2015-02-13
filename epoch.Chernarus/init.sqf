@@ -7,9 +7,6 @@
 [] execVM "scripts\marker3.sqf";
 [] execVM "scripts\marker4.sqf";
 
-//extra missions
-[] execVM "scripts\missions\missions.sqf";
-
 // Welcome Credits
 [] execVM "scripts\welcome\welcome.sqf";
 

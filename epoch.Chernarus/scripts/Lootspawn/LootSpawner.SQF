@@ -49,7 +49,6 @@ LSusedclass_list = ["WeaponHolderSimulated"];
 #include "LSlootBuildings.sqf"
 //Loot goes in these lists
 #include "LSlootLists.sqf"
-
 //-------------------------------------------------------------------------------------
 //function only runs once on beginning of mission, not really needs a compile 
 //fill spawnBuilding_list with buildingnames only
